@@ -1,0 +1,61 @@
+.logo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.stats {
+    position: absolute;
+    top: 0px;
+    left: 340px;
+    width: 370px
+}
+
+.steamAPI {
+    position: absolute;
+    top: 24px;
+    right: 280px;
+    width: 150px;
+}
+
+.fb {
+    position: absolute;
+    top: 20px;
+    right: 210px;
+    width: 70px;
+}
+
+.twitter {
+    position: absolute;
+    top: 20px;
+    right: 140px;
+    width: 70px;
+}
+
+.steam {
+    position: absolute;
+    top: 20px;
+    right: 70px;
+    width: 70px;
+}
+
+.discord {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    width: 70px;
+}
+
+
+<!---- Search Bar ----->
+input[type=text] {
+    width: 300px;
+    height: 100px;
+}
+
+.searchbar {
+    position: absolute;
+    top: 24px;
+    right: 220px;
+}
+<---------------------->
