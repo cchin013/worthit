@@ -59,3 +59,15 @@ input[type=text] {
     right: 220px;
 }
 <---------------------->
+
+<!---- Hot Games ----->
+.slideshow {
+    overflow: auto;
+    white-space: nowrap;
+}
+p.hotGames {
+    padding-left: 170px;
+    font-size: 45px;
+    position: relative;
+}
+<---------------------->
