@@ -1,48 +1,60 @@
+body {
+    background-color: lightblue;
+}
+
 .logo {
     position: absolute;
     top: 0px;
-    left: 0px;
+    left: 280px;
+}
+
+.slideshow {
+    position: absolute;
+    text-align: left;
+    top: 350px;
+    left: 100px;
+    width: 100%;
 }
 
 .stats {
     position: absolute;
     top: 0px;
-    left: 340px;
+    left: 740px;
     width: 370px
 }
 
 .steamAPI {
     position: absolute;
     top: 24px;
-    right: 280px;
+    right: 410px;
     width: 150px;
 }
 
 .fb {
     position: absolute;
     top: 20px;
-    right: 210px;
+    right: 340px;
     width: 70px;
 }
 
 .twitter {
     position: absolute;
     top: 20px;
-    right: 140px;
+    right: 270px;
     width: 70px;
 }
 
 .steam {
     position: absolute;
     top: 20px;
-    right: 70px;
+    right: 200px;
     width: 70px;
 }
 
 .discord {
     position: absolute;
     top: 20px;
-    right: 0px;
+    right: 130px;
     width: 70px;
 }
 
@@ -56,18 +68,41 @@ input[type=text] {
 .searchbar {
     position: absolute;
     top: 24px;
-    right: 220px;
+    right: 310px;
 }
 <---------------------->
 
-<!---- Hot Games ----->
+<!---- Hot Games & Reviews ----->
 .slideshow {
     overflow: auto;
-    white-space: nowrap;
 }
+
 p.hotGames {
-    padding-left: 170px;
-    font-size: 45px;
+    padding-left: 375px;
+    bottom: 210px;
+    font-size: 35px;
     position: relative;
+}
+
+img.hotGames {
+    position: relative;
+    top: -225px;
+    left: 0px;
+}
+
+div.recentReview {
+    position: absolute;
+    text-align: center;
+    width: 300px;
+    height: 1000px;
+    border: 3px solid green;
+    float: right;
+    word-wrap: break-word;
+    display: block;
+}
+
+span.seeMore{
+    font-weight: bold;
+    color: blue;
 }
 <---------------------->
