@@ -66,21 +66,9 @@ $(window).resize(updateScale);
 body {
 margin: 0;
 }
+    
 #layout {
     transform-origin: 75% 50%;
-}
-    
-.dropdown-content {
-display: none;        
-}
-
-.dropdown-content x {
-    color: black;
-    display: block;
-}
-    
-.dropdown:hover .dropdown-content {
-    display: block;
 }
 
 .carousel {
@@ -88,9 +76,9 @@ display: none;
     right: 16px;
 }
 
-    img:hover {
-        -webkit-filter: brightness(120%);
-    }
+img.icon:hover {
+    -webkit-filter: brightness(120%);
+}
     
 </style>
 </head>
@@ -128,16 +116,16 @@ display: none;
         </div>
         <button type="submit" class="btn btn-default">Submit</button>
         <a href="https://www.twitter.com">
-        <img style="position: relative; display: inline-block; left: 15px; height: 40px;" src="images/twitter.png">
+        <img class="icon" style="position: relative; display: inline-block; left: 15px; height: 40px;" src="images/twitter.png">
         </a>
         <a href="https://discord.gg">
-        <img style="position: relative; display: inline-block; left: 15px; height: 40px;" src="images/discord.png">
+        <img class="icon" style="position: relative; display: inline-block; left: 15px; height: 40px;" src="images/discord.png">
         </a>
         <a href="https://www.facebook.com">
-        <img style="position: relative; display: inline-block; left: 15px; height: 40px;" src="images/fb.png">
+        <img class="icon" style="position: relative; display: inline-block; left: 15px; height: 40px;" src="images/fb.png">
         </a>
         <a href="https://store.steampowered.com">
-        <img style="position: relative; display: inline-block; left: 15px; height: 45px;" src="images/steamlogin.png">
+        <img class="icon" style="position: relative; display: inline-block; left: 15px; height: 45px;" src="images/steamlogin.png">
           </a>
       </form>
     </div><!-- navbar-collapse -->
