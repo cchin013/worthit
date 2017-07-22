@@ -12,6 +12,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     
 <!--- Bootstrap CDN for Javascript ---->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
 </script>
     
@@ -81,6 +82,15 @@ display: none;
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.carousel {
+    width: 120px;
+    right: 16px;
+}
+
+    img:hover {
+        -webkit-filter: brightness(120%);
+    }
     
 </style>
 </head>
@@ -142,16 +152,142 @@ display: none;
     
 <div id="layout" class="container-fluid">
 <div class="row">
-<div class="col-md-4 col-md-offset-3" style="margin-top: 70px"><div class="font-effect-fire-animation"><h2 style="font-size: 27px">Hot Games</h2></div>
+
+
+<div class="col-md-3 col-md-offset-4" style="margin-top: 70px">
+    
+<div class="col-md-5 col-md-offset-3" style="position: absolute; left:-350px;">
+    
+    
+<div class="list-group">
+    
+    <a class="list-group-item-heading">
+    <strong style="padding-left: 12px;">Top Reviewed Games</strong>
+    </a>
+    <li class="list-group-item">
+    <span class="badge">39285</span>
+    PUBG
+    </li>
+    <li class="list-group-item">
+    <span class="badge">22938</span>
+    CS:GO
+    </li>
+    <li class="list-group-item">
+    <span class="badge">11943</span>
+    Hollow Knight
+    </li>
+    <li class="list-group-item">
+    <span class="badge">3944</span>
+    Dead Cells
+    </li>
+        <li class="list-group-item">
+    <span class="badge">1344</span>
+    Rogue Legacy
+    </li>
+        <li class="list-group-item">
+    <span class="badge">1003</span>
+    Crypt of the NecroDancer
+    </li>
+        <li class="list-group-item">
+    <span class="badge">892</span>
+    Spelunky
+    </li>
     
 </div>
+    
+    
+</div>    
 
-<div class="col-md-4" style="margin-top: 70px"><div class="font-effect-3d"><h2 style="font-size: 27px">Trending Games</h2></div>
+<div class="font-effect-fire-animation"><h2 style="font-size: 27px">New Games</h2>
+</div>
+    
+<div class="container">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="5000">
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="images/twitter.png" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="images/fb.png" style="width:100%;">
+      </div>
+    
+      <div class="item">
+        <img src="images/steam.png" style="width:100%;">
+      </div>
+    </div>
+  </div>
+
+<div style="left: 105px; bottom: 120px;" class="carousel slide" data-ride="carousel" data-interval="5000">
+  <div class="carousel-inner">
+    <div class="item active">
+    <a href="https://www.twitter.com">
+     <img src="images/twitter.png" style="width: 100%;">    
+    </a>
+    </div>
+    <div class="item">
+    <a href="https://store.steampowered.com">
+    <img src="images/steam.png" style="width: 100%;">  
+    </a>
+    </div>
+    <div class="item">
+    <a href="https://discord.gg">
+    <img src="images/discord.png" style="width: 100%;">
+    </a>
+    </div>
+  </div>    
+</div>
+    
+<div style="left: 105px; bottom: 120px;" class="carousel slide" data-ride="carousel" data-interval="5000">
+  <div class="carousel-inner">
+    <div class="item active">
+    <a href="https://www.twitter.com">
+     <img src="images/twitter.png" style="width: 100%;">    
+    </a>
+    </div>
+    <div class="item">
+    <a href="https://store.steampowered.com">
+    <img src="images/steam.png" style="width: 100%;">  
+    </a>
+    </div>
+    <div class="item">
+    <a href="https://discord.gg">
+    <img src="images/discord.png" style="width: 100%;">
+    </a>
+    </div>
+  </div>    
+</div>
+
+<div style="bottom: 240px;" class="carousel slide" data-ride="carousel" data-interval="5000">
+  <div class="carousel-inner">
+    <div class="item active">
+    <a href="https://www.twitter.com">
+     <img src="images/twitter.png" style="width: 100%;">    
+    </a>
+    </div>
+    <div class="item">
+    <a href="https://store.steampowered.com">
+    <img src="images/steam.png" style="width: 100%;">  
+    </a>
+    </div>
+    <div class="item">
+    <a href="https://discord.gg">
+    <img src="images/discord.png" style="width: 100%;">
+    </a>
+    </div>
+  </div>    
+</div>
+    
+</div> <!--- Carousel / Container /div --->
+       
+</div>
+
+<div class="col-md-4 col-md-offset-4" style="margin-top: -230px"><div class="font-effect-3d"><h2 style="font-size: 27px">Trending Games</h2></div>
 
 </div>
 </div>
 <div class="row">
-<div class="col-md-2 col-md-offset-10" style="margin-top: 70px"><div style="font-family: tangerine"><h2 style="font-size: 27px"><strong>Recent Reviews</strong></h2></div>
+<div class="col-md-2 col-md-offset-8" style="margin-top: -450px"><div style="font-family: tangerine"><h2 style="font-size: 27px"><strong>Recent Reviews</strong></h2></div>
 </div>    
     
     
